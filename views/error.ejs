@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<% include header  %>
+<div class="container">
+    <div class="section">
+    <span class="center">
+        <img class="materialboxed" width="300" src="assets/images/smileyBad.png">
+    </span>
+    <div class="ui text container">
+        <h1>Page <%=locals.error.status%></h1>
+        <h2>Not Found</h2>
+        <p>La page que vouz avez demandée n'existe pas <a href="/">Retour à l'Accueil</a></p>
+    </div>
+    </div>
+    </div>
+    <!-- <pre><%=locals.error.stack%></pre> -->
+<% include footer.ejs  %>
